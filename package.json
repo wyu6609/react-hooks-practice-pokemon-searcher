@@ -2,10 +2,14 @@
   "name": "react-hooks-practice-pokemon-searcher",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://wyu6609.github.io",
   "dependencies": {
+    "-": "^0.0.1",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "save": "^2.4.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.1"
   },
@@ -14,7 +18,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "server": "json-server --watch db.json -p 3001"
+    "server": "json-server --watch db.json -p 3001",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -1340,6 +1340,15 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
       }
+    },
+    {
+      "name": "bulbasaur",
+      "hp": "1000",
+      "sprites": {
+        "front": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTORhuomV597CvWfl06GSdGvdveJa3vduJLdcM9gDrvF8RVCKG6byhpNlIa9yLI3Mu-w7E&usqp=CAU",
+        "back": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGG1g3OWY9_AEff0JcGZkm2cGjvj-AmqYfawcuMZQU6A1qzxXJkI3HIwakAL4EU_bh8L0&usqp=CAU"
+      },
+      "id": 151
     }
   ]
 }
